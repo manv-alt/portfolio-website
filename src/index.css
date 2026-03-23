@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-darkBg text-slate-300 antialiased selection:bg-accentPrimary selection:text-white;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-white font-semibold;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accentPrimary to-accentSecondary;
+  }
+  .bg-gradient-animate {
+    @apply bg-gradient-to-r from-accentPrimary via-accentSecondary to-accentPrimary bg-[length:200%_auto] animate-gradient-x;
+  }
+}
