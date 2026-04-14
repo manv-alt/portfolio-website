@@ -23,19 +23,19 @@ const About = () => {
               About <span className="text-accentPrimary">Me</span>.
             </h2>
             <p className="text-slate-400 text-lg leading-relaxed mb-6">
-              Currently pursuing my Bachelor's in Computer Science at St. Mary's College Shirva (Mangalore University). I'm a motivated and detail-oriented Full Stack MERN Developer, passionate about learning new technologies and building scalable web applications.
+              Currently pursuing my Bachelor's in Computer Application at St. Mary's College Shirva (Mangalore University). I'm a motivated and detail-oriented Full Stack MERN Developer, passionate about learning new technologies and building scalable web applications.
             </p>
             <p className="text-slate-400 text-lg leading-relaxed mb-8">
               When I'm not coding, you can find me exploring new technologies, writing technical articles, or enjoying outdoor adventures to stay inspired.
             </p>
-            
+
             <div className="grid grid-cols-2 gap-6">
               <div>
                 <h4 className="text-4xl font-bold text-white mb-2">MERN</h4>
                 <p className="text-slate-500 font-medium">Stack Developer</p>
               </div>
               <div>
-                <h4 className="text-4xl font-bold text-white mb-2">BSc</h4>
+                <h4 className="text-4xl font-bold text-white mb-2">BCA</h4>
                 <p className="text-slate-500 font-medium">Computer Science</p>
               </div>
             </div>
