@@ -14,11 +14,11 @@ function App() {
         <Projects />
         <Contact />
       </main>
-      
+
       {/* Footer */}
       <footer className="border-t border-white/10 py-8 text-center mt-auto backdrop-blur-md">
         <p className="text-slate-500 text-sm">
-          © {new Date().getFullYear()} John Doe. Designed & Built with Code & Coffee.
+          © {new Date().getFullYear()} Manish. All rights reserved.
         </p>
       </footer>
     </div>
